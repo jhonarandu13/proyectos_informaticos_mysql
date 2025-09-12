@@ -31,6 +31,12 @@ VALUES ('App Biblioteca','App móvil de préstamos','2025-03-01',NULL, 9000000, 
         SET direccion = 'Cll 100 # 10-10', anios_experiencia = 7
         WHERE numero_documento = 'CC3003';
         
+-- Borrar un docente específico
+DELETE FROM docente
+WHERE numero_documento = 'CC3005';
 
+-- Borrar un proyecto específico
+DELETE FROM proyecto
+WHERE nombre = 'E-commerce';
 
         
